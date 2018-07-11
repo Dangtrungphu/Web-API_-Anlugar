@@ -47,11 +47,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\Auditable.cs" />
+    <Compile Include="Abstract\IAuditable.cs" />
+    <Compile Include="Model\BaiViet.cs" />
+    <Compile Include="Model\ChitietDH.cs" />
+    <Compile Include="Model\Footer.cs" />
+    <Compile Include="Model\HoTroTrucTuyen.cs" />
+    <Compile Include="Model\LoaiBaiViet.cs" />
+    <Compile Include="Model\LoaiSP.cs" />
+    <Compile Include="Model\Menu.cs" />
+    <Compile Include="Model\MenuGroup.cs" />
+    <Compile Include="Model\DatHang.cs" />
+    <Compile Include="Model\Page.cs" />
+    <Compile Include="Model\SanPham.cs" />
+    <Compile Include="Model\Slide.cs" />
+    <Compile Include="Model\SystemConfig.cs" />
+    <Compile Include="Model\The.cs" />
+    <Compile Include="Model\TheBaiViet.cs" />
+    <Compile Include="Model\TheSP.cs" />
+    <Compile Include="Model\VisitorStatistic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
