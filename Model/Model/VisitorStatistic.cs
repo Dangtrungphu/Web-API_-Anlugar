@@ -1,23 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Model.Model
+namespace TeduShop.Model.Models
 {
     [Table("VisitorStatistics")]
-    class VisitorStatistic
+    public class VisitorStatistic
     {
         [Key]
-        public Guid guid { set; get; }
+        public Guid ID { set; get; }
 
         [Required]
-        public DateTime VisiteaDate { set; get; }
+        public DateTime VisitedDate { set; get; }
 
-        [MaxLength (50)]
+        [MaxLength(50)]
         public string IPAddress { set; get; }
     }
 }

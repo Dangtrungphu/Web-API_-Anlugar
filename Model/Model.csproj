@@ -49,22 +49,24 @@
   <ItemGroup>
     <Compile Include="Abstract\Auditable.cs" />
     <Compile Include="Abstract\IAuditable.cs" />
-    <Compile Include="Model\BaiViet.cs" />
-    <Compile Include="Model\ChitietDH.cs" />
+    <Compile Include="IdentityUser.cs" />
+    <Compile Include="Model\Error.cs" />
     <Compile Include="Model\Footer.cs" />
-    <Compile Include="Model\HoTroTrucTuyen.cs" />
-    <Compile Include="Model\LoaiBaiViet.cs" />
-    <Compile Include="Model\LoaiSP.cs" />
     <Compile Include="Model\Menu.cs" />
     <Compile Include="Model\MenuGroup.cs" />
-    <Compile Include="Model\DatHang.cs" />
+    <Compile Include="Model\Order.cs" />
+    <Compile Include="Model\OrderDetail.cs" />
     <Compile Include="Model\Page.cs" />
-    <Compile Include="Model\SanPham.cs" />
+    <Compile Include="Model\Post.cs" />
+    <Compile Include="Model\PostCategory.cs" />
+    <Compile Include="Model\PostTag.cs" />
+    <Compile Include="Model\Product.cs" />
+    <Compile Include="Model\ProductCategory.cs" />
+    <Compile Include="Model\ProductTag.cs" />
     <Compile Include="Model\Slide.cs" />
+    <Compile Include="Model\SupportOnline.cs" />
     <Compile Include="Model\SystemConfig.cs" />
-    <Compile Include="Model\The.cs" />
-    <Compile Include="Model\TheBaiViet.cs" />
-    <Compile Include="Model\TheSP.cs" />
+    <Compile Include="Model\Tag.cs" />
     <Compile Include="Model\VisitorStatistic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

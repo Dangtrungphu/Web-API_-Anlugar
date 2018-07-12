@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Model.Model
+namespace TeduShop.Model.Models
 {
-    [Table("HoTroTrucTuyens")]
-    class HoTroTrucTuyen
+    [Table("SupportOnlines")]
+    public class SupportOnline
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -17,16 +12,16 @@ namespace Model.Model
 
         [Required]
         [MaxLength(50)]
-        public string Ten { set; get; }
+        public string Name { set; get; }
 
         [MaxLength(50)]
-        public string BoPhan { set; get; }
+        public string Department { set; get; }
 
         [MaxLength(50)]
         public string Skype { set; get; }
 
         [MaxLength(50)]
-        public string DienThoai { set; get; }
+        public string Mobile { set; get; }
 
         [MaxLength(50)]
         public string Email { set; get; }
@@ -35,13 +30,10 @@ namespace Model.Model
         public string Yahoo { set; get; }
 
         [MaxLength(50)]
-        public string FaceBook { set; get; }
+        public string Facebook { set; get; }
 
-        [MaxLength(50)]
-        public string TrangThai  { set; get; }
+        public bool Status { set; get; }
 
         public int? DisplayOrder { set; get; }
-
-
     }
 }
